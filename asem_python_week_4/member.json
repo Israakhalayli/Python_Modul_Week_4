@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Ali Kaya",
+        "phone": "555-123-4567",
+        "address": "Ataturk Caddesi, Istanbul"
+    },
+    {
+        "id": 2,
+        "name": "Asem",
+        "phone": "123456",
+        "address": "Amsterdam"
+    },
+    {
+        "id": 3,
+        "name": "Nader",
+        "phone": "435-4321-3421",
+        "address": "Nijmegen"
+    }
+]
