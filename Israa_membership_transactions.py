@@ -89,7 +89,7 @@ def lend_book(member_name, book_title):
 
 
 tracking_file = "taksi.json"
-books_file = "Israa_kitap.json"
+books_file = "Israa_Kitap.json"
 
 def load_json(filename):
     """ Load JSON data safely from a file """
@@ -119,7 +119,7 @@ def return_book(member_name, book_title):
     # Remove from tracking records
     tracking = [entry for entry in tracking if not (entry["member"] == member_name and entry["book"] == book_title)]
     save_json(tracking_file, tracking)
-    # Add book back to Israa_kitap.json
+    # Add book back to Israa_Kitap.json
     books.append({"title": book_title})
     save_json(books_file, books)
     print(f'Book "{book_title}" has been successfully returned by "{member_name}".')
